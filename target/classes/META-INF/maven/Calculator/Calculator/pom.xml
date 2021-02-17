@@ -14,11 +14,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
           		<exclude>**/*.java</exclude>
         		</excludes>
       		</resource>
-      		<resource>
-      			<directory>${basedir}/src/logic</directory>
-      			<filtering>false</filtering>  
-      			<targetPath></targetPath>            
-		</resource>
     	</resources>
     	
     <plugins>
